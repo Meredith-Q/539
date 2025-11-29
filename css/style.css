@@ -4,6 +4,24 @@
     line-height: 1.6;
 }
 
+*:focus {
+    border: #667eea solid 5px;
+}
+
+.skip{
+     position: absolute;
+     top: -35px;
+}
+
+.skip a:focus{
+     position: absolute;
+     background-color: #fff;
+     padding: 30px;
+     font-size: 30px;
+     top: 50px;
+     left: 10px;
+}
+
 h1 {
     font-size: 50px;
     margin: 10px;
@@ -771,5 +789,9 @@ footer {
 
     h1 {
         font-size: 80px;
+    }
+
+    .event p {
+        font-size: 25px;
     }
 }

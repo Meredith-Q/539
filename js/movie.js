@@ -1,7 +1,3 @@
-
-
-
-// voting
 const voteButtons = document.querySelectorAll('.vote-btn');        
 const topImg = document.getElementById('top-img');
 const topMovieTitle = document.querySelector('.top .movie_title');
@@ -20,11 +16,9 @@ function updateTopMovie() {
     });
         
     if (topMovie) {
-        const movieImg = topMovie.querySelector('.movie-img');
         const movieTitle = topMovie.querySelector('.movie_title').textContent;
             
         if (topImg && movieImg) {
-            topImg.src = movieImg.src;
             topImg.alt = movieImg.alt;
         }
             
