@@ -369,7 +369,7 @@ main {
 
 #fliter-bar > li > ul {
     border-radius: 12px;
-    width: 70%;
+    width: 75%;
     list-style: none;
     display: none;
     font-size: 20px;
@@ -381,6 +381,9 @@ main {
     
 }
 
+#fliter-bar > li:focus > *, #fliter-bar > li:focus-within > * {
+    display: block;
+}
 
 #fliter-bar > li > ul li {
     color: #555;

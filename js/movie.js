@@ -31,8 +31,7 @@ function updateTopMovie() {
 voteButtons.forEach(button => {
     button.addEventListener('click', function() {
         const movieItem = this.closest('.movie');
-        const voteCountElement = movieItem.querySelector('.vote-count');
-                
+        const voteCountElement = movieItem.querySelector('.vote-count');     
        let currentVotes = parseInt(voteCountElement.textContent);
         currentVotes++;
         voteCountElement.textContent = currentVotes;
