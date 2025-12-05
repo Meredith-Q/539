@@ -808,11 +808,5 @@ footer {
   .hamburger-line {
     transition: none;
   }
-  .hamburger.active .hamburger-line:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  .hamburger.active .hamburger-line:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
 
 }
